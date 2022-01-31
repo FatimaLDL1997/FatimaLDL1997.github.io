@@ -1,0 +1,118 @@
+.middle1__image {
+  position: absolute;
+  background-image: url("/images/myPhoto.svg");
+  background-repeat: no-repeat;
+  filter: drop-shadow(-24px 24px 23px rgba(0, 0, 0, 0.25));
+  background-size: 100%;
+  width: 551.26px;
+  height: 577.18px;
+  left: 54px;
+  top: 396.57px;
+}
+
+.middle1__description h3 {
+  font-family: 'Quintessential';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  padding-left: 650px;
+  padding-right: 23px;
+}
+
+@media (max-width: 63.9375em) {
+  .middle1__description h3 {
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 51.1333em) {
+  .middle1__text {
+    background-position: center;
+    background-color: #E83556;
+  }
+}
+
+.middle1__text h1 {
+  color: #0F0D0DFA;
+  font-family: "PT Serif", serif;
+  padding-left: 670px;
+  padding-top: 37px;
+  padding-bottom: 58px;
+  line-height: 91px;
+  font-size: 7.375rem;
+}
+
+@media (max-width: 51.1333em) {
+  .middle1__text h1 {
+    color: #FEFEF9;
+    padding-left: 82px;
+    padding-top: 0px;
+    font-size: 81px;
+    line-height: 60px;
+  }
+}
+
+.middle1__text h3 {
+  color: black;
+  font-family: "Sahitya", serif;
+  font-size: 4.75rem;
+  padding-left: 670px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+}
+
+@media (max-width: 51.1333em) {
+  .middle1__text h3 {
+    color: #FEFEF9;
+    padding-left: 57px;
+    padding-top: 33px;
+    padding-bottom: 49px;
+    font-size: 50px;
+    line-height: 1px;
+    letter-spacing: -0.04em;
+  }
+}
+
+.middle1__button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 64em) {
+  .middle1__button-container {
+    padding-bottom: 140px;
+    padding-left: 630px;
+    padding-top: 50px;
+  }
+}
+
+.middle1__button1 {
+  background-color: #E83556C4;
+  padding: 78px 25px;
+  margin: 20px;
+}
+
+.middle1__button2 {
+  background-color: #61D0D48A;
+  padding: 78px 18px;
+  margin: 20px;
+}
+
+.middle1__button3 {
+  background-color: #D1C926AD;
+  padding: 78px 35px;
+  margin: 20px;
+}
+
+.middle1__button4 {
+  background-color: #da823ad4;
+  padding: 78px 30px;
+  margin: 20px;
+}
