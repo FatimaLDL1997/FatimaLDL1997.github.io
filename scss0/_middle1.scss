@@ -1,0 +1,137 @@
+@import "variables"; 
+@import "mixins"; 
+.middle1 {
+      // background-color: $background;
+      @include breakpoint-down(small){
+        // background-color: $pink;    
+      }       
+    &__image {
+        position: absolute;
+        background-image: url('/images/myPhoto.svg');
+        background-repeat: no-repeat;   
+        filter: drop-shadow(-24px 24px 23px rgba(0, 0, 0, 0.25));
+        
+        background-size: 100%;
+        width: 551.26px;
+        height: 577.18px;
+        left: 54px;
+        top: 396.57px;
+    }
+
+    &__description {
+      h3 {
+        font-family: 'Quintessential', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 650px;
+        padding-right: 23px;
+
+        @include breakpoint-down(medium){
+          padding-left: 0px;
+          padding-top: 20px;
+          padding-bottom: 40px;
+          padding-right: 0px;
+          font-size: 16px;
+        }
+      }
+    }
+  
+    &__text {
+        // background-color: $background;
+        @include breakpoint-down(small){
+          background-position: center;
+          background-color: $pink; 
+        }     
+        
+        h1 {
+          
+          color: #0F0D0DFA;
+          font-family: $helloFont; 
+          padding-left: 670px;
+          padding-top: 37px;
+          padding-bottom: 58px;
+
+          line-height: 91px;
+          font-size: $font-xxlrg;
+
+          @include breakpoint-down(small){
+            color: $white;
+            padding-left: 82px;
+            padding-top: 0px;
+
+            font-size: 81px;
+            line-height: 60px;
+            
+          }
+        }
+
+        h3 {
+          color: rgb(0, 0, 0);
+
+          font-family: $nameFont;  
+
+          font-size: 4.75rem; // 76px/16
+          padding-left: 670px;
+          padding-top: 0px;
+          padding-bottom: 20px;
+
+          line-height: 58px;
+          letter-spacing: -0.04em;
+
+          @include breakpoint-down(small){
+            color: $white;
+            padding-left: 57px;
+            padding-top: 33px;
+            padding-bottom: 49px;
+
+            font-size: 50px;
+            line-height: 1px;
+            letter-spacing: -0.04em;
+          }
+        }
+
+    }
+
+    &__button-container{
+      // padding-top: 0px;
+      // padding-bottom: 22px;
+
+      display: flex;
+      flex-wrap: wrap;
+      
+
+      @include breakpoint-up(large){
+        padding-bottom: 140px;
+        padding-left: 630px;
+        padding-top: 50px;        
+      }
+    } 
+
+    &__button1{
+      background-color: #E83556C4;
+      padding: 78px 25px;
+      margin:20px;
+      
+    }
+
+    &__button2{
+      background-color: #61D0D48A;
+      padding: 78px 18px;
+      margin:20px;
+    }
+
+    &__button3{
+      background-color: #D1C926AD;
+      padding: 78px 35px;
+      margin:20px;
+    }
+    &__button4{
+      background-color: #da823ad4;
+      padding: 78px 30px;
+      
+      margin:20px;
+
+    }
+}

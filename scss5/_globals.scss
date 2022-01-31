@@ -1,0 +1,178 @@
+@import "variables"; 
+@import "mixins"; 
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body{
+  // background: yellow;
+  z-index: -3;
+  margin:0 auto;
+
+  h1{
+    margin: 0;
+
+  }
+  h3 {
+    margin: 0;
+  }
+}
+
+// Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+  &-jc-sa {
+    justify-content: space-around;
+  }
+}
+
+//remove underline from all a elements 
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+.button{
+  border: none;
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 25px;
+  font-family: ruda;
+  cursor: pointer;
+  box-shadow: -12px 12px 23px rgba(0, 0, 0, 0.25);
+
+  display: block;
+  margin: auto; 
+  margin-bottom: 25px;//between each button
+
+  
+
+  &:hover {
+    color: $black;
+    font-weight:bolder;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+// Visibility
+.hide-for-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
+body {
+  overflow-x: hidden;            
+  &.noscroll {
+    overflow: hidden !important;
+  }
+}
+.hide-for-tablet{
+  @include breakpoint-up(small) {
+    display: none;
+  }
+
+  @include breakpoint-down(large){
+    display: none;
+  }
+}
+body {
+              
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+.container1 {
+  text-align: justify;
+  padding: 24px;  
+
+  @include breakpoint-down(medium){
+    // padding-top: 24px;
+    padding-bottom: 24px;
+    // padding-left: 130px;
+    // padding-right: 130px;
+  }
+  @include breakpoint-down(middle){
+    // padding: 24px;
+  }
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 999;
+  transition: all 0.3s linear;
+}
+.hide-preloader {
+  z-index:-999;
+  visibility: hidden;
+}
+.video-container {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 145%;
+  object-fit: cover;
+  z-index: -2;
+  
+}
+.middle::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 127%;
+  height: 117%;
+  // background: #d49d4b9c;
+  z-index: -1;
+
+  @include breakpoint-down(medium){
+    height: 125%; 
+    width: 100%;
+    @include breakpoint-down(middle){
+      height: 217%; 
+      width: 100%;
+    }
+  }
+}
+

@@ -1,0 +1,112 @@
+@import "variables"; 
+@import "mixins"; 
+.middle {
+  // background-color: #f5f5f5;
+  padding: 20px;
+  padding-top: 0px;
+
+  
+  &__description {
+    h3 {
+      color: $black;
+      font-family: Ruda;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+    
+      @include breakpoint-down(medium){
+        
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-size: 16px;
+      
+      }
+    }
+  }
+
+  &__text {
+      // background-color: $background;
+      @include breakpoint-down(small){
+        background-position: center;
+        background-color: $pink; 
+      }     
+      
+      h1 {
+        
+        color: #0F0D0DFA;
+        font-family: $helloFont;
+        padding-top: 37px;
+        padding-bottom: 58px;
+
+        line-height: 91px;
+        font-size: $font-xxlrg;
+        text-align: center;
+
+        @include breakpoint-down(small){
+          color: $white;
+          padding-top: 0px;
+
+          font-size: 81px;
+          line-height: 60px;
+          
+        }
+      }
+    
+  } 
+
+
+  &__buttons {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__filter-btn {
+    background: transparent;
+    border-color: $pink;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 0.5rem 0.5rem;
+    letter-spacing: 1px;
+    border-radius: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: simple;
+    border-width: 0.3rem;
+  }
+  &__filter-btn:hover {
+    background: #a4001d6b;
+    color: white;
+  }
+
+  &__txt {
+      text-align: center;
+      h3 {
+        color: #4B0A0A;
+        font-size: 29px;
+        font-weight: normal;
+        font-family: 'Comforter', cursive;
+      }
+      h1 {
+        color: #1c5655;
+        font-weight: normal;
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+        
+      }
+      h2{
+        color: #0c6568;
+        text-align: center;
+      }
+      
+  }
+  
+
+  
+}
+
+  

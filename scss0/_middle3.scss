@@ -1,0 +1,332 @@
+@import "variables"; 
+@import "mixins"; 
+.middle3 {
+  background-color: #f5f5f5;
+  padding: 133px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  @include breakpoint-down (middle ){
+    padding: 30px;
+    padding-top:0px; 
+  }
+
+  // &__skills {
+     
+    
+  // }
+  &__icon {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      margin-left: 20px;
+
+      &:hover {
+        width: 45px;
+        height: auto;
+        
+    
+        &::before {
+          opacity: 1;
+        }
+      }
+    } 
+  }
+
+ 
+  &__col1 {
+    flex: 1;
+    
+    padding-right: 5px;
+    margin-right: 20px;
+    @include breakpoint-down (medium){
+      margin-right: 0px;
+    }
+    @include breakpoint-up(xlarge){
+      margin-right: 176px;
+    }
+
+    h3 {
+      &:hover {
+        color: $black;
+        font-weight:bolder;
+        
+    
+        &::before {
+          opacity: 1;
+        }
+      } 
+    }
+
+    h3 {
+      font-family: Sahitya;
+      font-style: normal;
+      font-weight: normal;
+      text-align: left;
+      font-size: 19px;
+      line-height: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      color: black;
+    }
+    @include breakpoint-down (medium){
+      padding-left: 5px;
+      h3 {
+        text-align: center;
+      }
+    }
+    @include breakpoint-down(middle){
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+      
+  }
+
+  &__col2 {
+    flex: 1;
+    padding-right: 5px;
+
+    h3 {
+      &:hover {
+        color: $black;
+        font-weight:bolder;
+    
+        &::before {
+          opacity: 1;
+        }
+      } 
+    }
+
+    h3 {
+      font-family: Sahitya;
+      font-style: normal;
+      font-weight: normal;
+      text-align: left;
+      font-size: 19px;
+      line-height: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      color: black;
+    }
+    @include breakpoint-down (medium){
+      padding-left: 5px;      
+      h3 {
+        text-align: center;
+      }
+    }
+
+    @include breakpoint-down(medium){
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  &__col4 {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      &:hover {
+        color: $black;
+        font-weight:bolder;
+    
+        &::before {
+          opacity: 1;
+        }
+      } 
+    }
+     
+    h3 {
+      font-family: Sahitya;
+      font-style: normal;
+      font-weight: normal;
+      text-align: left;
+      font-size: 19px;
+      line-height: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+      color: black;
+      
+    }
+    @include breakpoint-down (medium){
+      padding-left: 5px;
+      padding-left: 0px;
+      h3{
+        text-align: center;
+      }
+    }
+  }
+  &__content {
+    flex-direction: row;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @include breakpoint-down(middle){
+      flex-direction: column;
+    }
+  }
+  
+  &__soft {
+    padding: 33px;
+    display: inline-flex;
+    flex:1;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, rgba(232, 53, 86, 0.37) 0%, rgba(232, 53, 86, 0.0814) 97.92%);
+
+    border-radius: 25px;
+    margin-bottom: 11px;
+    margin-right: 11px;
+
+    flex-direction: column;
+    align-content: stretch;
+    @include breakpoint-up(large){
+      flex: 1;
+      flex-direction: row;
+      align-content:flex-start; 
+    }
+    
+    @include breakpoint-up(large){
+      flex: 2;
+    }
+    @include breakpoint-up(xlarge){
+      flex: 3;
+    }
+
+  }
+  &__lang {
+    flex: 1;
+    background: linear-gradient(180deg, rgba(232, 53, 86, 0.37) 0%, rgba(232, 53, 86, 0.0814) 97.92%);
+
+    border-radius: 25px;
+    margin-bottom: 11px;
+    margin-right: 11px;
+  }
+ 
+
+  &__title1 {
+    flex-direction: row;
+    display: inline-flex;
+    flex: 3;
+    flex-wrap: nowrap;
+    
+    @include breakpoint-down(medium){
+      img {
+      height: 0;
+      width: 0;
+      }
+      flex: 1;
+      justify-content: center;
+    }
+  }
+
+  &__title2{
+    flex-direction: row;
+    display: inline-flex;
+    flex: 1;
+    flex-wrap: nowrap;
+
+    @include breakpoint-down(medium){
+      img {
+        height: 0;
+        width: 0;
+        }
+      
+      justify-content: center;
+    }
+  }
+
+  &__title-container {
+    flex-wrap: wrap;
+    h1 {
+      font-family: Sahitya;
+      font-style: normal;
+      font-weight: normal;
+      text-align: left;
+      font-size: 56px;
+      line-height: 46px;
+
+      color: rgba(53, 26, 26, 0.55);
+      
+      padding-bottom: 30px;
+      padding-top: 19px;
+      padding-left: 20px;
+      
+
+      
+      @include breakpoint-down(medium){
+        font-size: 36px;
+        @include breakpoint-down(middle){
+          padding-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          font-size: 0px;
+        }
+      }
+
+      &:hover {
+        color: $black;
+        font-weight:bolder;
+    
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
+
+
+  //button to GO BACK 
+  &__bButton-container {
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 1%;
+    justify-content: flex-end;
+    @include breakpoint-down(middle){
+      justify-content: center;
+    }
+  }
+  &__bButton {
+    font-family: $nameFont;
+    color: black;
+    font-weight: bold;
+    padding: 5px 29px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #f5f5f5, #E83556);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+    cursor: pointer;
+    border: 0 !important;
+    font-size: $font-sm;
+
+    @include breakpoint-up(medium){
+      font-size: $font-med;
+      padding: 17px 43px;
+      
+    }
+  }
+  &__bButton:hover {
+    color: rgb(7, 7, 26);
+    background: linear-gradient(to right, #0ce4f3, #f5f5f5);
+  }
+
+
+
+}
+
+  

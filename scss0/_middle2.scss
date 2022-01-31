@@ -1,0 +1,155 @@
+@import "variables"; 
+@import "mixins"; 
+.middle2 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  padding-top: 60px;
+
+  &__project {
+    padding-top: 26px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    @include breakpoint-up(large){
+      flex-wrap: nowrap;
+      flex-flow: row;
+    }
+  }
+
+  &__text-container {
+    flex: 1;
+
+    padding: 5%;
+    padding-bottom: 20px;
+    padding-top: 0px;
+
+    h3 {
+      text-align: justify;
+      hyphens: auto;
+      font-family: Ruda;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 30px;  
+      color: rgba(0, 0, 0, 0.57);  
+      
+      @include breakpoint-down(middle){
+        font-size: 15px;
+        line-height: 20px;
+      }
+      padding-bottom: 15px;
+    }
+    h1 {
+      font-family: Sahitya;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 53px;
+      line-height: 46px;
+      color: rgba(53, 26, 26, 0.55);
+      text-align: left;
+      padding-bottom: 30px;
+
+      @include breakpoint-down(medium){
+        font-size: 53px;
+        line-height: 46px;
+        padding-bottom: 30px;
+        text-align: center;
+        
+      }
+    }
+
+  }
+  
+
+
+  &__button {
+    font-family: $nameFont;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    color: $white;
+    padding: 5px 29px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#E83556,#61D0D4);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+    cursor:pointer;
+    border: 0 !important;
+
+    font-size: $font-sm;
+    
+    @include breakpoint-down(medium){
+      display: block;
+      margin: auto;
+    }
+    @include breakpoint-up(medium){
+      font-size: $font-med;
+      padding: 17px 43px;
+    }
+  }
+
+  &__line {
+    background: url('/images/line.svg') no-repeat center;
+    border: none;
+    height: 47px;
+
+  }
+
+  &__video {    
+
+    iframe {
+      
+      width: auto;
+      height: 315px; 
+      border-radius: 25px;
+      border-style: none;
+      
+
+    }
+    @include breakpoint-up(middle){
+      
+      iframe {
+        width: 600px;
+        height: 315px; 
+      }
+    }
+    @include breakpoint-up(large){
+      flex: 1;
+      flex-wrap: nowrap;
+      margin: auto;
+      iframe {
+        width:100%;
+      }
+    }
+  }
+  &__buttons {
+    margin-bottom: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__filter-btn {
+    background: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0.5rem 0.5rem;
+    letter-spacing: 1px;
+    border-radius: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: "Quattrocento", serif;
+    box-shadow: 8px 8px 8px -3px rgba(0, 0, 0, 0.25);
+  }
+  &__filter-btn:hover {
+    background: #de294899;
+    color: white;
+  }
+
+}
+
+  

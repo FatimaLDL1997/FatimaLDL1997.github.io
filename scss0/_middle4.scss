@@ -1,0 +1,96 @@
+@import "variables"; 
+@import "mixins"; 
+.middle4 {
+  padding: 4px;
+  @include breakpoint-up(large){
+    padding:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  img {
+    padding: 30px;
+    border-radius: 74px;
+
+    @include breakpoint-down(medium){
+      width: 100%;
+      height: auto;
+    }
+    @include breakpoint-up (large){
+      &:hover {
+        padding: 25px;
+        width:50%;
+        height: auto;
+        
+        &:before {
+          opacity: 1;
+        }
+      }
+    }
+    
+  }
+  &__images {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+  }
+  &__text {
+    @include breakpoint-up(large){
+      padding-top: 2%;
+      padding-bottom: 0px;
+      padding: 80px;
+      font-size: 28px;
+    }
+    padding: 50px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0px;
+    font-size: 10px;
+    color: grey;
+    font-family: $bodyFont;
+  }
+
+
+    //button to GO BACK 
+    &__bButton-container {
+      flex: 1;
+      flex-wrap: wrap;
+      display: flex;
+      padding: 1%;
+      justify-content: flex-end;
+      @include breakpoint-down(middle){
+        justify-content: center;
+      }
+    }
+    &__bButton {
+      font-family: $nameFont;
+      color: black;
+      font-weight: bold;
+      padding: 5px 29px;
+      border-radius: 50px;
+      background: linear-gradient(to right, #f5f5f5, #E83556);
+      box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+      cursor: pointer;
+      border: 0 !important;
+      font-size: $font-sm;
+      margin-bottom: 20px;
+
+      @include breakpoint-up(medium){
+        font-size: $font-med;
+        padding: 17px 43px;
+        
+      }
+    }
+    &__bButton:hover {
+      color: rgb(7, 7, 26);
+      background: linear-gradient(to right, #0ce4f3, #f5f5f5);
+    }
+
+
+
+}
+
+  
