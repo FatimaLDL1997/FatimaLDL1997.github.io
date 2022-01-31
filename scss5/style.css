@@ -190,10 +190,6 @@ body.noscroll {
   }
 }
 
-body.noscroll {
-  overflow: hidden;
-}
-
 .container1 {
   text-align: justify;
   padding: 24px;
