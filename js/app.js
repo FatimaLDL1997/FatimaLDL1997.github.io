@@ -141,7 +141,7 @@ const menu = [
         more: `<a href="page5.html" target="_blank">
         <button class="middle2__button">Read More</button>
         </a>`,
-        vid: ``,
+        vid: `https://www.youtube.com/embed/6iDljWnuGQA`,
     },
   ];
   //dynamic population of html section using an array and js 

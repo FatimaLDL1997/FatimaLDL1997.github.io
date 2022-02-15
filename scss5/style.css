@@ -78,6 +78,10 @@ html {
           box-sizing: border-box;
 }
 
+audio {
+  display: none;
+}
+
 *,
 *::before,
 *::after {

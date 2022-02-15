@@ -18,7 +18,74 @@
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
-     id="defs850" />
+     id="defs850">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2320"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2316"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2310"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2306"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2302"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2298"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,19 +93,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.5922036"
-     inkscape:cx="33.926097"
-     inkscape:cy="54.216773"
+     inkscape:zoom="7.0040127"
+     inkscape:cx="17.088502"
+     inkscape:cy="41.891237"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1-6"
+     inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="1272"
-     inkscape:window-height="655"
-     inkscape:window-x="-5"
-     inkscape:window-y="1080"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata853">
     <rdf:RDF>
@@ -47,7 +114,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,50 +123,27 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       inkscape:label="Layer 1"
-       id="layer1-6"
-       transform="matrix(0.01867268,0,0,0.02119939,1.7070537,-0.32441058)">
-      <g
-         id="g1998">
-        <text
-           xml:space="preserve"
-           style="font-size:741.814px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:39.8033;stroke-miterlimit:4;stroke-dasharray:none"
-           x="188.5544"
-           y="904.60236"
-           id="text835"
-           transform="scale(1.0382704,0.96314024)"><tspan
-             sodipodi:role="line"
-             id="tspan833"
-             x="188.5544"
-             y="904.60236"
-             style="stroke-width:39.8033;stroke-miterlimit:4;stroke-dasharray:none">F</tspan></text>
-        <rect
-           style="fill:none;fill-rule:evenodd;stroke:#4c1515;stroke-width:14.3494;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect849"
-           width="679.27045"
-           height="850.3092"
-           x="33.627499"
-           y="247.19664" />
-        <rect
-           style="fill:none;fill-rule:evenodd;stroke:#4c1515;stroke-width:14.3494;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect849-4"
-           width="679.27045"
-           height="850.3092"
-           x="245.93649"
-           y="75.844154" />
-        <text
-           xml:space="preserve"
-           style="font-size:994.197px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:53.2596"
-           x="41.94838"
-           y="1053.8544"
-           id="text843-3"
-           transform="scale(1.0588381,0.94443144)"><tspan
-             sodipodi:role="line"
-             x="41.94838"
-             y="1053.8544"
-             style="stroke-width:53.2596"
-             id="tspan845-5">L</tspan></text>
-      </g>
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Layer 2">
+      <ellipse
+         style="opacity:1;fill:#a70024;fill-opacity:0.823293;stroke:#ffffff;stroke-width:0.0695386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.694118"
+         id="path2389"
+         cx="10.1393"
+         cy="10.416112"
+         rx="10.184252"
+         ry="9.2345295" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2317px;line-height:1.25;font-family:Elephant;-inkscape-font-specification:Elephant;letter-spacing:0px;fill:#ffffff;fill-opacity:1;stroke-width:0.201934"
+         x="3.7170296"
+         y="17.452494"
+         id="text2393"><tspan
+           sodipodi:role="line"
+           id="tspan2391"
+           x="3.7170296"
+           y="17.452494"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.2317px;font-family:Elephant;-inkscape-font-specification:Elephant;fill:#ffffff;fill-opacity:1;stroke-width:0.201934">F</tspan></text>
     </g>
   </g>
 </svg>

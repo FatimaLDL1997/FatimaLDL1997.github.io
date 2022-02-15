@@ -108,7 +108,9 @@ const menu = [
                 <h2>${item.author}</h2>
               </div>
         
-              <embed src="${item.music}" loop="true" autoplay = " true" width="2" height="0">`;
+              <audio controls autoplay loop>
+                <source src="${item.music}" type="audio/mpeg">
+              </audio>`;
        
     }) 
   

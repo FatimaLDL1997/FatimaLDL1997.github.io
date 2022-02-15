@@ -1580,6 +1580,7 @@ body.noscroll {
 @media (max-width: 51.1333em) {
   .footer__img {
     padding-top: 75px;
+    margin: 0;
   }
 }
 
@@ -1605,8 +1606,8 @@ body.noscroll {
 }
 
 .footer__credits h3 {
-  text-align: right;
-  padding-right: 20px;
+  text-align: center;
+  padding-right: 0%;
   padding-bottom: 20px;
   font-size: 9px;
   font-family: "M PLUS Rounded 1c", sans-serif;
