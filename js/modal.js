@@ -6,7 +6,7 @@ function getElement(selection) {
     throw new Error(
       `Please check "${selection}" selector, no such element exists`
     );
-  }
+}
   
 class Gallery {
     constructor(element) {
@@ -93,20 +93,7 @@ class Gallery {
             this.setMainImage(e.target);
             e.target.classList.add('selected');
         }
-    }
-
-    
+    }    
 }
 
 const art = new Gallery(getElement('.middle4__images'));
-
-// function getPosition() {
-//     console.log("getPosition");
-//     while(true){
-//         var distance = document.querySelector('.main-img').offsetTop; 
-//         console.log(distance);
-//     }
-//     return distance; 
-// }
-
-// getPosition();
