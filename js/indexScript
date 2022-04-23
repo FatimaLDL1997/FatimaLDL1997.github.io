@@ -15,9 +15,9 @@ $(document).ready(function(){
     //to show back up button once you scroll a certain distance down
     window.addEventListener('scroll', function(){
         const scrollHeight  = window.pageYOffset; 
-        // console.log(scrollHeight); 
+        console.log(scrollHeight); 
         if (scrollHeight>400){
-            // console.log("reached 100");  
+            console.log("reached 100");  
             topLink.classList.add("show-link"); 
         }
         else{
@@ -57,21 +57,21 @@ $(document).ready(function(){
         preloader.classList.add("hide-preloader");
     }); 
 
-    // //video switch
-    // const btn = document.querySelector(".switch-btn");
-    // const video = document.querySelector(".video-container");
+    //video switch
+    const btn = document.querySelector(".switch-btn");
+    const video = document.querySelector(".video-container");
 
     
 
-    // btn.addEventListener("click", function () {
-    //     if (!btn.classList.contains("slide")) {
-    //         btn.classList.add("slide");
-    //         video.pause();
-    //     } else {
-    //         btn.classList.remove("slide");
-    //         video.play();
-    //     }
-    // });
+    btn.addEventListener("click", function () {
+        if (!btn.classList.contains("slide")) {
+            btn.classList.add("slide");
+            video.pause();
+        } else {
+            btn.classList.remove("slide");
+            video.play();
+        }
+    });
 
 
 

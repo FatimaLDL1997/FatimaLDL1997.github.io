@@ -79,23 +79,155 @@
                     Some of my best art and commision work collection is posted here.     
                 </h3>
             </div>
-            <div class="middle4__images">
-                <img src="/images/art/river.png" width="25%" height="auto">
-                <img src="/images/art/actor2.PNG" width="25%" height="auto">
-                <img src="/images/art/balloon_LI.jpg" width="25%" height="auto">
-                <img src="/images/art/bearzoom.jpg" width="25%" height="auto">
-                <img src="/images/art/cat.PNG" width="25%" height="auto">
-                <img src="/images/art/dog.PNG" width="25%" height="auto">
-                <img src="/images/art/elephant.jpg" width="25%" height="auto">`
-                <img src="/images/art/elephantzoom.jpg" width="25%" height="auto">
-                <img src="/images/art/horses.PNG" width="25%" height="auto">
-                <img src="/images/art/parrot2.PNG" width="25%" height="auto">
-                <img src="/images/art/panda.PNG" width="auto" height="300">
-                <img src="/images/art/boy.PNG" width="25%" height="auto">
-                <img src="/images/art/window.PNG" width="25%" height="auto">
-                <img src="/images/art/dreams.PNG" width="25%" height="auto">
-                <img src="/images/art/lillies.JPG" width="25%" height="auto">
-                <img src="/images/art/mermaid.jpg" width="25%" height="auto">
+            <section class="middle4__images">
+                <img 
+                    src="/images/art/river.png" 
+                    title="River - digital"
+                    data-id="1"
+                    class="img"
+                    alt="River - digital"
+                />
+                <img 
+                    img src="/images/art/actor2.PNG" 
+                    title="Turkish Actress - Prisma"
+                    data-id="2"
+                    class="img"
+                    alt="Turkish Actress - Prisma"
+                />
+                <img 
+                    src="/images/art/balloon_LI.jpg" 
+                    title="Air Baloon - Digital"
+                    data-id="3"
+                    class="img"
+                    alt="Air Baloon - Digital"
+                />
+                <img 
+                    src="/images/art/bearzoom.jpg" 
+                    title="Bear (zoomed) - oil pastal"
+                    data-id="4"
+                    class="img"
+                    alt="Bear (zoomed) - oil pastal"
+                />
+                <img 
+                    src="/images/art/cat.PNG" 
+                    title="Cat - Prisma"
+                    data-id="5"
+                    class="img"
+                    alt="Cat - Prisma"
+                />
+                <img 
+                    src="/images/art/dog.PNG" 
+                    title="Dog - Prisma"
+                    data-id="6"
+                    class="img"
+                    alt="Dog - Prisma"
+                />
+                <img 
+                    src="/images/art/elephant.jpg" 
+                    title="Elephant - Oil Pastal"
+                    data-id="7"
+                    class="img"
+                    alt="Elephant - Oil Pastal"
+                />
+                <img 
+                    src="/images/art/elephantzoom.jpg" 
+                    title="Elephant (zoomed) - Oil Pastal"
+                    data-id="8"
+                    class="img"
+                    alt="Elephant (zoomed) - Oil Pastal"
+                />
+                <img 
+                    src="/images/art/horses.PNG" 
+                    title="Love Horses - Acrylics"
+                    data-id="9"
+                    class="img"
+                    alt="Love Horses - Acrylics"
+                />
+                <img 
+                    src="/images/art/parrot2.PNG" 
+                    title="Parrots - Prisma"
+                    data-id="10"
+                    class="img"
+                    alt="Parrots - Prisma"
+                />
+                <img 
+                    src="/images/art/panda.PNG" 
+                    title="Panda - Prisma"
+                    data-id="11"
+                    class="img"
+                    alt="Panda - Prisma"
+                />
+                <img 
+                    src="/images/art/boy.PNG" 
+                    title="Young Actor - Graphite"
+                    data-id="12"
+                    class="img"
+                    alt="Young Actor - Graphite"
+                />
+                <img 
+                    src="/images/art/window.PNG" 
+                    title="Window - Acrylics"
+                    data-id="13"
+                    class="img"
+                    alt="Window - Acrylics"
+                />
+                <img 
+                    src="/images/art/dreams.PNG" 
+                    title="Dreams - Oil Pastal"
+                    data-id="14"
+                    class="img"
+                    alt=" Dreams - Oil Pastal"
+                />
+                <img 
+                    src="/images/art/lillies.JPG" 
+                    title="Dreams - Oil Pastal"
+                    data-id="15"
+                    class="img"
+                    alt=" Dreams - Oil Pastal"
+                />
+                <img 
+                    src="/images/art/mermaid.jpg" 
+                    title="Mermaid - Oil Pastal "
+                    data-id="16"
+                    class="img"
+                    alt="Mermaid - Oil Pastal"
+                />
+            </section>
+
+            <!-- modal -->
+            <div class="modal">
+                <button class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <!-- prev next buttons -->
+                <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <!-- content -->
+                <div class="box">
+                    
+                    <div class="innerBox">
+                        <div class="main-container">
+                            <img src="/images/art/actor2.PNG" class="main-img" alt="" />
+                            <h3 class="image-name">image name</h3>
+                        </div>
+                        
+                        <div class="modal-images">
+                            <img
+                            src="/images/art/actor2.PNG"
+                            title="digital1"
+                            id="1"
+                            class="modal-img"
+                            alt=""
+                            />
+                        </div>
+                    </div>
+                    
+                </div>
+               
             </div>
 
         </section>
@@ -173,6 +305,8 @@
         
 
         <script src="js/script.js"></script>
+        <script src="js/modal.js"></script>
+
         
     </body>
 </html>
