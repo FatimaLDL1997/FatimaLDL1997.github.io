@@ -1400,21 +1400,22 @@ body.noscroll {
 
 .middle4 img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 157px;
   border-radius: 0.25rem;
   cursor: pointer;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  height: 15rem;
+  padding: 1%;
+  margin: 1%;
 }
 
 .middle4 img:hover {
   -webkit-box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
           box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
   opacity: 50%;
+  background-color: #350d0d;
 }
 
 .middle4 .modal {
@@ -1715,19 +1716,6 @@ body.noscroll {
   .middle4 .next-btn {
     right: 2rem;
   }
-}
-
-.middle4 .img {
-  width: 250px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 1%;
-  margin: 1%;
-}
-
-.middle4 .img:hover {
-  background-color: #350d0d;
 }
 
 .middle4 .main-container {

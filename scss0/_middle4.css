@@ -17,17 +17,19 @@
 
 .middle4 img {
   height: 100%;
-  object-fit: cover;
+  width: 157px;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.3s linear;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  height: 15rem;
+  padding: 1%;
+  margin: 1%;
 }
 
 .middle4 img:hover {
   box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
   opacity: 50%;
+  background-color: #350d0d;
 }
 
 .middle4 .modal {
@@ -297,17 +299,6 @@
   .middle4 .next-btn {
     right: 2rem;
   }
-}
-
-.middle4 .img {
-  width: 250px;
-  height: fit-content;
-  padding: 1%;
-  margin: 1%;
-}
-
-.middle4 .img:hover {
-  background-color: #350d0d;
 }
 
 .middle4 .main-container {
