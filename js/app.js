@@ -95,7 +95,34 @@ const menu = [
     },
     {
         id: 6,
-        title: "Personal Website",
+        title: "Projects Website",
+        category: "Web_Development",
+        desc: `                    
+        <h3>
+            Inspired by John Smilga's projects website, I decided to categoraize and create my own collection of projects all under one website as well.  
+            
+        </h3>
+        <h3> 
+            I used Figma to draw out my plan and decide on which color sceme looks best. Then I started with the SCSS and HTML followed by JS.  
+            I made sure its responsive on all screens and has the least cross browser compatability issues possible.
+            I used Gihub Webpages and also Netlify this time to publish my website by commiting and pushing the code from my VS Code 
+            directly to Github and Netlify. 
+        </h3>
+        <h3>
+            So far I only have Vanilla JS projects to share with you on it. I envision this website to be filled with amazing projects in the future as I teach myself
+            more skills.   
+        </h3>
+        <h3>
+            To view the website, you can click on <span>'More'</span> below. 
+        </h3>`,
+        more: `<a href="https://projects-fatima.netlify.app/" target="_blank">
+        <button class="middle2__button">More</button>
+        </a>`,
+        vid: ``,
+    },
+    {
+        id: 7,
+        title: "Personal Portfolio",
         category: "Web_Development",
         desc: `                    
         <h3>
@@ -125,7 +152,7 @@ const menu = [
         vid: `https://youtube.com/embed/WC-B1lJlcuo`,
     },
     {
-        id: 7,
+        id: 8,
         title: "Meditation Website",
         category: "Web_Development",
         desc: `                    
@@ -143,6 +170,7 @@ const menu = [
         </a>`,
         vid: `https://www.youtube.com/embed/6iDljWnuGQA`,
     },
+    
   ];
   //dynamic population of html section using an array and js 
   const middle = document.querySelector(".middle2__content"); 

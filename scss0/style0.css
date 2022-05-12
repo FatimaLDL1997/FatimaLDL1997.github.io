@@ -613,7 +613,7 @@ body.noscroll {
 }
 
 .header__links a:hover {
-  color: #000000;
+  color: #f2fd73;
   font-size: 1.5rem;
   font-weight: bolder;
 }
@@ -1767,7 +1767,7 @@ body {
   padding-bottom: 0px;
   font-size: 10px;
   color: #16394a;
-  font-family: "Ruda", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @media (min-width: 64em) {
@@ -1851,8 +1851,8 @@ body {
 .footer .top-link {
   font-size: 1.25rem;
   position: fixed;
-  bottom: 2rem;
-  right: 3rem;
+  bottom: 3rem;
+  right: 1rem;
   background: #9eb4bf;
   width: 2rem;
   height: 3rem;
