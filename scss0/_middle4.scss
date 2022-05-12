@@ -21,8 +21,8 @@
     
     &:hover {
       box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
-      opacity: 50%;
-      background-color: rgb(53, 13, 13);
+      opacity: 80%;
+      background-color: $darkBlue;
 
     }
     
@@ -98,7 +98,7 @@
   .image-name {
     position: absolute;
     text-align: center;
-    color: #fda5a5;
+    color: $background;
 
     // margin: 2rem 0 3rem;
     font-size: 40px;
@@ -262,7 +262,7 @@
     padding-top: 2%;
     padding-bottom: 0px;
     font-size: 10px;
-    color: grey;
+    color: $darkBlue;
     font-family: $bodyFont;
   }
 

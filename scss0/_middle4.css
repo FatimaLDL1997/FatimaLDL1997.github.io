@@ -28,8 +28,8 @@
 
 .middle4 img:hover {
   box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
-  opacity: 50%;
-  background-color: #350d0d;
+  opacity: 80%;
+  background-color: #16394a;
 }
 
 .middle4 .modal {
@@ -112,7 +112,7 @@
 .middle4 .image-name {
   position: absolute;
   text-align: center;
-  color: #fda5a5;
+  color: #9eb4bf;
   font-size: 40px;
 }
 
@@ -323,7 +323,7 @@
   padding-top: 2%;
   padding-bottom: 0px;
   font-size: 10px;
-  color: grey;
+  color: #16394a;
   font-family: "Ruda", sans-serif;
 }
 
