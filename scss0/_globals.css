@@ -1,11 +1,7 @@
-@import "variables"; 
-@import "mixins"; 
-
 html {
-    font-size: 100%;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -14,120 +10,119 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
-
-  h1{
-    margin: 0;
-
-  }
-  h3 {
-    margin: 0;
-  }
 }
 
-// Flexbox
+body h1 {
+  margin: 0;
+}
+
+body h3 {
+  margin: 0;
+}
+
 .flex {
   display: flex;
-
-  &-jc-sb {
-    justify-content: space-between;
-  }
-
-  &-jc-c {
-    justify-content: center;
-  }
-
-  &-ai-c {
-    align-items: center;
-  }
-  &-jc-sa {
-    justify-content: space-around;
-  }
 }
 
-//remove underline from all a elements 
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-jc-c {
+  justify-content: center;
+}
+
+.flex-ai-c {
+  align-items: center;
+}
+
+.flex-jc-sa {
+  justify-content: space-around;
+}
+
 a,
 a:visited,
 a:hover {
   text-decoration: none;
 }
 
-.button{
+.button {
   border: none;
   border-radius: 100%;
   color: white;
   text-align: center;
   text-decoration: none;
-  
   font-size: 25px;
   font-family: ruda;
-  
   cursor: pointer;
   box-shadow: -12px 12px 23px rgba(0, 0, 0, 0.25);
-
   display: block;
-  margin: auto; 
-  margin-bottom: 25px;//between each button
-
-  
-
-  &:hover {
-    color: black;
-    // font-weight:bolder;
-
-    &::before {
-      opacity: 1;
-    }
-  }
+  margin: auto;
+  margin-bottom: 25px;
 }
 
-// Visibility
-.hide-for-mobile {
-  @include breakpoint-down(medium) {
+.button:hover {
+  color: black;
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
     display: none;
   }
 }
 
-.hide-for-desktop {
-  @include breakpoint-up(large) {
+@media (min-width: 64em) {
+  .hide-for-desktop {
     display: none;
   }
 }
 
-.hide-for-tablet{
-  @include breakpoint-up(small) {
+@media (min-width: null) {
+  .hide-for-tablet {
     display: none;
   }
-
-  @include breakpoint-down(large){
-    display: none;
-  }
-
-
 }
+
+@media (max-width: 87.4375em) {
+  .hide-for-tablet {
+    display: none;
+  }
+}
+
 body {
-  overflow-x: hidden;            
-  &.noscroll {
-    overflow: hidden !important;
-  }
+  overflow-x: hidden;
+}
+
+body.noscroll {
+  overflow: hidden !important;
 }
 
 .container1 {
   text-align: justify;
   padding: 24px;
-  
+}
 
-  @include breakpoint-down(medium){
+@media (max-width: 63.9375em) {
+  .container1 {
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 130px;
     padding-right: 130px;
   }
-  @include breakpoint-down(middle){
+}
+
+@media (max-width: 60.9375em) {
+  .container1 {
     padding: 24px;
   }
 }
+
 .preloader {
   position: fixed;
   top: 0;
@@ -142,10 +137,10 @@ body {
   z-index: 999;
   transition: all 0.3s linear;
   overflow-y: hidden !important;
-  
 }
+
 .hide-preloader {
-  z-index:-999;
+  z-index: -999;
   visibility: hidden;
   overflow-y: visible !important;
 }
@@ -158,10 +153,9 @@ body {
   height: 145%;
   object-fit: cover;
   z-index: -2;
-  
 }
-/* switch button */
 
+/* switch button */
 .switch-btn {
   position: relative;
   bottom: -1px;
@@ -175,6 +169,7 @@ body {
   border: none;
   transition: all 0.3s linear;
 }
+
 .switch-btn span {
   display: inline-block;
   font-size: 0.85rem;
@@ -182,6 +177,7 @@ body {
   text-transform: capitalize;
   color: #d9555f;
 }
+
 .switch {
   position: absolute;
   width: 50%;
@@ -194,9 +190,11 @@ body {
   display: block;
   transition: all 0.3s linear;
 }
+
 .slide .switch {
   left: 50%;
 }
+
 .middle::after {
   content: "";
   position: absolute;
@@ -204,15 +202,19 @@ body {
   left: 0;
   width: 127%;
   height: 117%;
-  // background: #d49d4b9c;
   z-index: -1;
+}
 
-  @include breakpoint-down(medium){
-    height: 125%; 
+@media (max-width: 63.9375em) {
+  .middle::after {
+    height: 125%;
     width: 100%;
-    @include breakpoint-down(middle){
-      height: 217%; 
-      width: 100%;
-    }
+  }
+}
+
+@media (max-width: 63.9375em) and (max-width: 60.9375em) {
+  .middle::after {
+    height: 217%;
+    width: 100%;
   }
 }

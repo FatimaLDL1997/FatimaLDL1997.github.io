@@ -17,8 +17,11 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     height: 15rem;
     
+    
     &:hover {
       box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
+      opacity: 50%;
+
     }
     
   }
@@ -73,7 +76,7 @@
     }
     @include breakpoint-down(small){
       margin-top: 23%;
-      width: 67%;
+      width: 67%;//30% before
     }
     @include breakpoint-down(xsmall){
       margin-top: 7%;
@@ -232,6 +235,10 @@
     height: fit-content;
     padding: 1%;
     margin: 1%;
+    
+    &:hover{
+      background-color: rgb(53, 13, 13);
+    }
   }
   .main-container {
     display: flex;
@@ -248,8 +255,7 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 10%;
-    
+    padding: 10%;  
   }
   &__text {
     @include breakpoint-up(large){

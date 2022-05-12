@@ -1411,6 +1411,7 @@ body.noscroll {
 .middle4 img:hover {
   -webkit-box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
           box-shadow: 0 5px 15px rgba(209, 69, 116, 0.555);
+  opacity: 50%;
 }
 
 .middle4 .modal {
@@ -1720,6 +1721,10 @@ body.noscroll {
   height: fit-content;
   padding: 1%;
   margin: 1%;
+}
+
+.middle4 .img:hover {
+  background-color: #350d0d;
 }
 
 .middle4 .main-container {
