@@ -1,5 +1,6 @@
 .footer {
   background-color: #e83556cf;
+  padding: 82px;
 }
 
 .footer .top-link {
@@ -41,7 +42,7 @@
   height: 240px;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 61em) {
   .footer__social {
     padding-top: 25px;
     align-content: center;
