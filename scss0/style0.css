@@ -828,7 +828,7 @@ body {
   font-weight: normal;
   font-size: 53px;
   line-height: 46px;
-  color: rgba(53, 26, 26, 0.55);
+  color: #0c2939;
   text-align: left;
   padding-bottom: 30px;
 }
@@ -848,7 +848,7 @@ body {
   margin-bottom: 17px;
   color: #FEFEF9;
   padding: 5px 29px;
-  border-radius: 50px;
+  border-radius: 9px;
   background: -webkit-gradient(linear, left top, right top, from(#0b3d55cf), to(#082331));
   background: linear-gradient(to right, #0b3d55cf, #082331);
   -webkit-box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.25);
@@ -941,7 +941,6 @@ body {
 }
 
 .middle3 {
-  background-color: #f5f5f5;
   padding: 133px;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -1021,7 +1020,7 @@ body {
   line-height: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 63.9375em) {
@@ -1073,7 +1072,7 @@ body {
   line-height: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 63.9375em) {
@@ -1140,7 +1139,7 @@ body {
   line-height: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 63.9375em) {
@@ -1186,8 +1185,8 @@ body {
           flex: 1;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(232, 53, 86, 0.37)), color-stop(97.92%, rgba(232, 53, 86, 0.0814)));
-  background: linear-gradient(180deg, rgba(232, 53, 86, 0.37) 0%, rgba(232, 53, 86, 0.0814) 97.92%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#265369), color-stop(97.92%, #9eb4bf));
+  background: linear-gradient(180deg, #265369 0%, #9eb4bf 97.92%);
   border-radius: 25px;
   margin-bottom: 11px;
   margin-right: 11px;
@@ -1233,8 +1232,8 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(232, 53, 86, 0.37)), color-stop(97.92%, rgba(232, 53, 86, 0.0814)));
-  background: linear-gradient(180deg, rgba(232, 53, 86, 0.37) 0%, rgba(232, 53, 86, 0.0814) 97.92%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#265369), color-stop(97.92%, #9eb4bf));
+  background: linear-gradient(180deg, #265369 0%, #9eb4bf 97.92%);
   border-radius: 25px;
   margin-bottom: 11px;
   margin-right: 11px;
@@ -1309,7 +1308,7 @@ body {
   text-align: left;
   font-size: 56px;
   line-height: 46px;
-  color: rgba(53, 26, 26, 0.55);
+  color: #16394a;
   padding-bottom: 30px;
   padding-top: 19px;
   padding-left: 20px;

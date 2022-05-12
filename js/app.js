@@ -16,10 +16,10 @@ const menu = [
             app, which I created using MIT App Inventor 2, is downloaded. 
         </h3>
         <h3>
-            To find out more, click on <span>'Read More'</span> . 
+            To find out more, click on <span>'More'</span> . 
         </h3>`,
         more: `<a href="https://docs.google.com/presentation/d/1o_kN13XVdnWkEdLOEnaNw110-DKlmgUn/edit#slide=id.p1" target="_blank">
-        <button class="middle2__button">Read More</button>
+        <button class="middle2__button">More</button>
         </a>`,
         vid: `https://www.youtube.com/embed/_VZ0PIWQRv4`,
     },
@@ -38,10 +38,10 @@ const menu = [
             The robot was able to complete its tasks within the time limit given and return exactly where it started out.
         </h3>
         <h3>
-            To know more about the implementation and other details, click on <span>'Read More'</span>. 
+            To know more about the implementation and other details, click on <span>'More'</span>. 
         </h3>`,
         more: `<a href="https://docs.google.com/presentation/d/1PUa8U0a-f6iZ2F3Uqu64av3yNkHGnZJ6SWFun64nca0/edit#slide=id.p" target="_blank">
-        <button class="middle2__button">Read More</button>
+        <button class="middle2__button">More</button>
         </a>`,
         vid: `https://www.youtube.com/embed/b1aJYZsqKdw`,
     },
@@ -56,10 +56,10 @@ const menu = [
         For my Factory I/O projects, I used WinSPS-S7, which is a programming and simulation software that can be connected to Factory I/O for simulation, and can allow the use of LAD, STL and FBD programming languages. I also used block coding in the Control I/O driver to program some of other scenes. 
         </h3>  
         <h3>
-            To read more about the Box Invertor project, you can click on <span>'Read More'</span>.                    
+            To know more about the Box Invertor project, you can click on <span>'More'</span>.                    
         </h3> `,
         more: `<a href="https://docs.google.com/presentation/d/1sFrfJt7mQPm7WV5CGWkuU-jeux3HAkwoBm6wZWR0sUg/edit#slide=id.g104b29813b7_1_634" target="_blank">
-        <button class="middle2__button">Read More</button>
+        <button class="middle2__button">More</button>
         </a>`,
         vid: `https://www.youtube.com/embed/GX4YVvpWhGs`,
     },
@@ -86,10 +86,10 @@ const menu = [
             I have created many 3D models during my studies and some of the best are the ones shown in the videos. 
         </h3>
         <h3>
-            To read more about the refregirator project you can click on <span>'Read More'</span>. 
+            To know more about the refregirator project you can click on <span>'More'</span>. 
         </h3>`,
         more: `<a href="https://docs.google.com/presentation/d/18e636l75nlfDWRUQUgk3HTUKjh_qqNyOdnLf53usbhU/edit#slide=id.g35f391192_00" target="_blank">
-        <button class="middle2__button">Read More</button>
+        <button class="middle2__button">More</button>
         </a>`,
         vid: `https://www.youtube.com/embed/IklHF9jQogU`,
     },
@@ -117,10 +117,10 @@ const menu = [
             Currently, I am learning more about JavaScript and React and applying what I learn to improve on this website everytime I get the chance to.
         </h3>
         <h3>
-            To view the website, you can click on <span>'Read More'</span> below. 
+            To view the website, you can click on <span>'More'</span> below. 
         </h3>`,
         more: `<a href="https://github.com/FatimaLDL1997/FatimaLDL1997.github.io" target="_blank">
-        <button class="middle2__button">Read More</button>
+        <button class="middle2__button">More</button>
         </a>`,
         vid: `https://youtube.com/embed/WC-B1lJlcuo`,
     },
@@ -136,10 +136,10 @@ const menu = [
             as you listen to the music to help you focus even more. 
         </h3>
         <h3> 
-            To check it out, you can click on <span>'Read More'</span> below. 
+            To check it out, you can click on <span>'More'</span> below. 
         </h3>`,
         more: `<a href="page5.html" target="_blank">
-        <button class="middle2__button">Read More</button>
+        <button class="middle2__button">More</button>
         </a>`,
         vid: `https://www.youtube.com/embed/6iDljWnuGQA`,
     },
