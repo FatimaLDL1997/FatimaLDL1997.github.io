@@ -1,8 +1,10 @@
 @import "variables"; 
 @import "mixins"; 
+body{
+  background-color: $background;
+}
 .middle2 {
-  background-color: #f5f5f5;
-  padding: 20px;
+  padding: 25px;
   padding-top: 60px;
 
   &__project {
@@ -74,7 +76,7 @@
     color: $white;
     padding: 5px 29px;
     border-radius: 50px;
-    background: linear-gradient(to right,#E83556,#61D0D4);
+    background: linear-gradient(to right,$pink,#082331);
     box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
     cursor:pointer;
     border: 0 !important;
@@ -92,10 +94,9 @@
   }
 
   &__line {
-    background: url('/images/line.svg') no-repeat center;
+    background: url('/images/line.png') no-repeat center;
     border: none;
-    height: 47px;
-
+    height: 68px;
   }
 
   &__video {    
@@ -146,7 +147,7 @@
     box-shadow: 8px 8px 8px -3px rgba(0, 0, 0, 0.25);
   }
   &__filter-btn:hover {
-    background: #de294899;
+    background: $pink;
     color: white;
   }
 

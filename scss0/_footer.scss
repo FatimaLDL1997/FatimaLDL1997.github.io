@@ -1,23 +1,29 @@
 @import "variables"; 
 @import "mixins"; 
 
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
 .footer {
-    
-    background-color: #e83556cf;
-    padding: 82px;
+    margin-top: auto;
+    background-color: $pink;
+    padding: 3px;
     .top-link {
         font-size: 1.25rem;
         position: fixed;
         bottom: 2rem;
         right: 3rem;
-        background: #beeaec;
+        background: $background;
         width: 2rem;
         height: 3rem;
         display: -ms-grid;
         display: grid;
         place-items: center;
         border-radius: 11px;
-        color: #dd5760;
+        color: $pink;
         animation: bounce2 2s ease-in-out infinite;
       
         visibility: hidden;
@@ -41,9 +47,11 @@
     }
     
     &__social{
-        height: 240px;
+        // height: 240px;
+        margin-top: auto;
         @include breakpoint-up (medium){
             padding-top: 25px;
+            padding-bottom: 20px;
             align-content: center;
             align-items: center;   
         }
@@ -52,9 +60,14 @@
 
     &__img{
         @include breakpoint-down(small){
-            padding-top:75px;
+            padding:15px;
             margin: 0;
-        }    
+        } 
+        img {
+
+            width: 50px;
+            padding: 5px;
+        }   
     }
 
 

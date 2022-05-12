@@ -1,5 +1,8 @@
 @import "variables"; 
 @import "mixins"; 
+body{
+  background-color: $background;
+}
 .middle1 {
       background-color: $background;
       @include breakpoint-down(small){

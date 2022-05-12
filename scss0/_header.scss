@@ -3,7 +3,7 @@
 .header{
     position: relative; 
     z-index: 0;
-    background-color: #e83556cf;
+    background-color: $pink;
 
     // Hamburger Open Styles
     &.open {
@@ -270,17 +270,20 @@
             display: block;
             margin:auto;
             line-height: 25px;   
-            padding-top: 0px;
             text-align: center;
+
+            padding-top: 0px;
             padding-bottom: 60px;
+            padding-left: 90px;
+            padding-right: 90px;
         }
 
         
         a {
             position: relative;
             font-family: $linkFont;
-            font-size: $font-med;
-            color: $black;
+            font-size: 1.75rem;
+            color: $white;
             transition: color 300ms ease-in-out;
             
             &:not(:last-child){

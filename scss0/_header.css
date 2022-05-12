@@ -1,7 +1,7 @@
 .header {
   position: relative;
   z-index: 0;
-  background-color: #e83556cf;
+  background-color: #0b3d55cf;
 }
 
 .header.open .header__toggle > span:first-child {
@@ -246,17 +246,19 @@
     display: block;
     margin: auto;
     line-height: 25px;
-    padding-top: 0px;
     text-align: center;
+    padding-top: 0px;
     padding-bottom: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
   }
 }
 
 .header__links a {
   position: relative;
   font-family: "Quattrocento", serif;
-  font-size: 1.25rem;
-  color: #000000;
+  font-size: 1.75rem;
+  color: #FEFEF9;
   transition: color 300ms ease-in-out;
 }
 
