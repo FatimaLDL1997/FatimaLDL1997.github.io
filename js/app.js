@@ -99,18 +99,17 @@ const menu = [
         category: "Web_Development",
         desc: `                    
         <h3>
-            Inspired by John Smilga's projects website, I decided to categoraize and create my own collection of projects all under one website as well.  
+            Inspired by John Smilga's projects website, I decided to categorize and create my own collection of projects all under one website. 
             
         </h3>
         <h3> 
-            I used Figma to draw out my plan and decide on which color sceme looks best. Then I started with the SCSS and HTML followed by JS.  
-            I made sure its responsive on all screens and has the least cross browser compatability issues possible.
-            I used Gihub Webpages and also Netlify this time to publish my website by commiting and pushing the code from my VS Code 
-            directly to Github and Netlify. 
+            I used Figma to draw out my plan and decide on which colour scheme looks best. Then I started with the SCSS and HTML followed by JS.  
+            I made sure its responsive on all screens and has the least cross browser compatibility issues possible.
+            I used GitHub Webpages and also Netlify this time to publish my website by committing and pushing the code from my VS Code 
+            directly to GitHub and Netlify. 
         </h3>
         <h3>
-            So far I only have Vanilla JS projects to share with you on it. I envision this website to be filled with amazing projects in the future as I teach myself
-            more skills.   
+            So far, I only have Vanilla JS projects to share with you on it. I envision this website to be filled with amazing projects in the future as I teach myself more skills.   
         </h3>
         <h3>
             To view the website, you can click on <span>'More'</span> below. 
