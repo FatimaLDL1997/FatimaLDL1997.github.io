@@ -95,6 +95,33 @@ const menu = [
     },
     {
         id: 6,
+        title: "Grocery Bud",
+        category: "Web_Development",
+        desc: `                    
+        <h3>
+            This website I made can help you manage your budget better.  
+            Through it, you can create infinite 
+            number of lists. Each list calculates its total for you
+            automatically each time you add or remove an item. Also 
+            there is no limit as to how much items you can delete
+            and add.  
+        </h3>
+        <h3>
+            I have also added localStorage too to make more easy to use. 
+            So everytime you need to leave your phone and come back to it 
+            later or everytime you refresh the page, you will lose no data
+            at all. 
+        </h3>
+        <h3> 
+            To check it out, you can click on <span>'More'</span> below. 
+        </h3>`,
+        more: `<a href="https://groceryhelper2022.netlify.app/" target="_blank">
+        <button class="middle2__button">More</button>
+        </a>`,
+        vid: ``,
+    },
+    {
+        id: 7,
         title: "Projects Website",
         category: "Web_Development",
         desc: `                    
@@ -120,7 +147,7 @@ const menu = [
         vid: ``,
     },
     {
-        id: 7,
+        id: 9,
         title: "Personal Portfolio",
         category: "Web_Development",
         desc: `                    
